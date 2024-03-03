@@ -178,7 +178,7 @@ def getnumOfPostFanpage(driver, pageId, amount, filePath = 'posts.csv'):
         getPostIds(driver, filePath)
 
 
-cookie = 'c_user=100048984103634;xs=34%3AkZF5Twh5-JnjuA%3A2%3A158591851%3A12351%3A12904'
+cookie = 'c_user=100048087683234; xs=42%3Ak-0p_EgpN4SCcQ%3A2%3A1706519646%3A-1%3A225%3A%3AAcXLs32ols7NIYcn8XJ2zXS9RaIgmOPKoZp_HJqXDUQ;'
 driver = initDriver()
 isLive = checkLiveCookie(driver, cookie)
 if (isLive):
